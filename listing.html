@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from askbootstrap.com/preview/food-line/listing.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Sep 2021 02:11:45 GMT -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Askbootstrap">
+    <meta name="author" content="Askbootstrap">
+    
+    <title>Pedido App - Compre seus produtos!</title>
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet">
+
+    <link href="vendor/icofont/icofont.min.css" rel="stylesheet">
+
+    <link href="vendor/select2/css/select2.min.css" rel="stylesheet">
+
+    <link href="css/osahan.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css">
+</head>
+
+<body>
+    <div id="app">
+        <navbar-pedidos-app></navbar-pedidos-app> <!-- Componente Navbar chamado pelo Vue em components.js-->
+
+    <section class="section pt-5 pb-5 products-listing">
+        <div class="container">
+            <div class="row d-none-m">
+                <div class="col-md-12">
+                    <div class="dropdown float-right">
+                        <a class="btn btn-outline-info dropdown-toggle btn-sm border-white-btn" href="#" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ordenar: <span class="text-theme">Preço</span> &nbsp;&nbsp;
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow-sm border-0 ">
+                            <a class="dropdown-item" href="#">Preço</a>
+                            <a class="dropdown-item" href="#">Data de Inclusão</a>
+                            <a class="dropdown-item" href="#">Avaliação</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4 class="font-weight-bold mt-0 mb-3">Ofertas <small class="h6 mb-0 ml-2">{{produtos.length}} produtos</small>
+                            </h4>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Digite um produto para pesquisa" aria-label="Produto" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                  <button class="btn btn-outline-secondary" type="button">Buscar</button>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <menu-filtros></menu-filtros>
+                <div class="col-md-9">
+                    <lista-produtos></lista-produtos>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section pt-5 pb-5 text-center bg-white">
+        <cadastro-produto></cadastro-produto>
+    </section>
+    <footer class="pt-4 pb-4 text-center">
+        <div class="container">
+            <p class="mt-0 mb-0">© Copyright 2021 Pedidos App. All Rights Reserved</p>
+            <small class="mt-0 mb-0"> Made with <i class="fas fa-heart heart-icon text-danger"></i> by
+                <a class="text-danger" target="_blank" href="https://www.instagram.com/itismejao/">João Marcos</a>
+            </small>
+        </div>
+    </footer>
+    </div>
+
+    <script src="vendor/jquery/jquery-3.3.1.slim.min.js" type="7768b3f5367f077e7bf73001-text/javascript"></script>
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js" type="7768b3f5367f077e7bf73001-text/javascript"></script>
+
+    <script src="vendor/select2/js/select2.min.js" type="7768b3f5367f077e7bf73001-text/javascript"></script>
+
+    <script src="vendor/owl-carousel/owl.carousel.js" type="7768b3f5367f077e7bf73001-text/javascript"></script>
+
+    <script src="js/custom.js"></script>
+    <script src="../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        data-cf-settings="7768b3f5367f077e7bf73001-|49" defer=""></script>
+    <script defer src="../../../static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"rayId":"68ee4c376bcd4b40","version":"2021.8.1","r":1,"token":"dd471ab1978346bbb991feaa79e6ce5c","si":10}'></script>
+</body>
+<script src="https://unpkg.com/vue"></script>
+<script type="text/javascript" src="js/components.js"></script>
+
+<script>
+
+
+</script>
+<!-- Mirrored from askbootstrap.com/preview/food-line/listing.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Sep 2021 02:11:45 GMT -->
+
+</html>
